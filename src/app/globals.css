@@ -101,6 +101,25 @@ a {
   background: #15110d;
 }
 
+.form-field {
+  width: 100%;
+  border: 1px solid rgba(244, 234, 216, 0.14);
+  background: rgba(255, 255, 255, 0.055);
+  padding: 0.95rem 1rem;
+  color: var(--ivory);
+  outline: none;
+  transition:
+    border-color 300ms ease,
+    background-color 300ms ease,
+    box-shadow 300ms ease;
+}
+
+.form-field:focus {
+  border-color: rgba(184, 148, 84, 0.85);
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 0 0 3px rgba(184, 148, 84, 0.14);
+}
+
 [data-rise] {
   will-change: transform, opacity, filter;
 }

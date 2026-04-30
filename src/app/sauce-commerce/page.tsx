@@ -1,5 +1,5 @@
-import { ServicePage } from "../servicePages";
+import { ServiceInquiryPage } from "../ServiceInquiryPage";
 
 export default function Page() {
-  return <ServicePage serviceKey="sauce-commerce" />;
+  return <ServiceInquiryPage serviceKey="sauce-commerce" />;
 }
