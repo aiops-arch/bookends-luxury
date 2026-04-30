@@ -468,13 +468,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="grid gap-[6vw] px-[5vw] py-[14vh] md:grid-cols-[0.8fr_1.2fr]">
-        <div data-rise className="glass p-7">
-          <ChefHat className="mb-8 text-[#b89454]" />
-          <h2 className="serif text-5xl">Siddhant & Vidhi Shah</h2>
-          <p className="mt-5 text-sm leading-7 text-[#a99f90]">Founder portrait space reserved for high-resolution photography. Until those assets arrive, the layout is ready for editorial portrait treatment without breaking the composition.</p>
-        </div>
-        <div className="grid gap-4">
+      <section className="px-[5vw] py-[14vh]">
+        <div className="mx-auto grid max-w-5xl gap-4">
           {["Press and partnerships", "Supplier and chef collaborations", "Help-Out Initiative reporting"].map((item) => (
             <motion.a data-magnetic data-rise href={`${whatsapp}?text=${encodeURIComponent(item)}`} key={item} whileHover={{ x: 10 }} className="flex items-center justify-between border-b border-white/10 py-7 text-[0.76rem] uppercase tracking-[0.24em] text-[#d8c7a8]">
               {item}
