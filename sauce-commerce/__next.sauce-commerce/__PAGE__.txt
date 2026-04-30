@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[75001,["/bookends-luxury/_next/static/chunks/0--gly6c6~6o9.js","/bookends-luxury/_next/static/chunks/0~j-tgot1-y6w.js","/bookends-luxury/_next/static/chunks/0c52a1-uumyz7.js"],"ServiceInquiryPage"]
+3:I[62711,["/bookends-luxury/_next/static/chunks/0--gly6c6~6o9.js","/bookends-luxury/_next/static/chunks/0~j-tgot1-y6w.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"serviceKey":"sauce-commerce"}],[["$","script","script-0",{"src":"/bookends-luxury/_next/static/chunks/0c52a1-uumyz7.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"qgo0JYcLNZmPvZxtjYYXQ"}
+5:null

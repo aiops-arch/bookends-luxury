@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[62711,["/bookends-luxury/_next/static/chunks/0--gly6c6~6o9.js","/bookends-luxury/_next/static/chunks/0~j-tgot1-y6w.js"],"ViewportBoundary"]
+3:I[62711,["/bookends-luxury/_next/static/chunks/0--gly6c6~6o9.js","/bookends-luxury/_next/static/chunks/0~j-tgot1-y6w.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[19772,["/bookends-luxury/_next/static/chunks/0--gly6c6~6o9.js","/bookends-luxury/_next/static/chunks/0~j-tgot1-y6w.js"],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Bookends Hospitality Pvt. Ltd."}],["$","meta","1",{"name":"description","content":"A cinematic hospitality landing page for Bookends, Capiche, Ghaslet, and Banquets."}],["$","link","2",{"rel":"icon","href":"/bookends-luxury/icon.svg?icon.0._8kdxtfzw4y.svg","sizes":"any","type":"image/svg+xml"}],["$","$L5","3",{}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"qgo0JYcLNZmPvZxtjYYXQ"}
