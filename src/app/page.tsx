@@ -5,6 +5,7 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { AnimatePresence, motion } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 import {
   ArrowUpRight,
   BriefcaseBusiness,
@@ -70,10 +71,10 @@ const gallery = [
 ];
 
 const services = [
-  { icon: CalendarDays, title: "Table Requests", text: "Priority reservation flow for Capiche dining and tasting nights." },
-  { icon: UsersRound, title: "Private Events", text: "Availability-led inquiry system for banquets, corporate dinners, and family celebrations." },
-  { icon: ShoppingBag, title: "Sauce Commerce", text: "Ghaslet storytelling, collector packs, and direct WhatsApp purchase intent." },
-  { icon: BriefcaseBusiness, title: "Careers", text: "A premium hospitality hiring surface for kitchen, service, and operations roles." }
+  { icon: CalendarDays, title: "Table Requests", href: "/table-requests", text: "Priority reservation flow for Capiche dining and tasting nights." },
+  { icon: UsersRound, title: "Private Events", href: "/private-events", text: "Availability-led inquiry system for banquets, corporate dinners, and family celebrations." },
+  { icon: ShoppingBag, title: "Sauce Commerce", href: "/sauce-commerce", text: "Ghaslet storytelling, collector packs, and direct WhatsApp purchase intent." },
+  { icon: BriefcaseBusiness, title: "Careers", href: "/careers", text: "A premium hospitality hiring surface for kitchen, service, and operations roles." }
 ];
 
 const menuMoods = [
@@ -432,13 +433,17 @@ export default function Home() {
 
       <section className="px-[5vw] py-[14vh]">
         <div className="grid gap-4 md:grid-cols-4">
-          {services.map(({ icon: Icon, title, text }) => (
+          {services.map(({ icon: Icon, title, href, text }) => (
             <motion.article data-rise data-magnetic key={title} whileHover={{ y: -10, backgroundColor: "rgba(184,148,84,0.12)" }} className="glass grid min-h-72 content-between p-6">
               <Icon className="text-[#b89454]" />
               <div>
                 <h3 className="serif text-4xl">{title}</h3>
                 <p className="mt-4 text-sm leading-6 text-[#a99f90]">{text}</p>
               </div>
+              <Link href={href} className="mt-7 flex items-center justify-between border-t border-white/10 pt-5 text-[0.66rem] uppercase tracking-[0.24em] text-[#b89454]">
+                Open page
+                <ArrowUpRight size={15} />
+              </Link>
             </motion.article>
           ))}
         </div>
